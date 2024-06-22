@@ -1,5 +1,5 @@
 # accordion
-
+forked in order to fix https://github.com/GotJimmy/accordion/issues/65 
 An expandable Flutter widget list where each item can be expanded or collapsed simply by clicking on the header.
 
 Simple to use accordion widget with lots of preset properties. Use the `maxOpenSections` property to automatically close sections when opening a new section. This is especially helpful if you always want your list to look clean -- just set this parameter to 1 and whenever you open a new section the previous one closes. `scrollIntoView` paramter can be set to `fast`, `slow`, or `none` and makes sure that just opened items will be fully visible. This parameter will only take affect if there are enough items in the list so scrolling is feasible.
